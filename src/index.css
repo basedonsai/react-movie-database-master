@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #1e272e;
+	color: #fff;
+  }
+  
+  header {
+	padding: 50px 15px 0px;
+	text-align: center;
+  }
+  
+  header h1 {
+	color: #fff;
+	font-size: 48px;
+	font-weight: 700;
+  }
+  
+  main {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  .searchbox-wrap {
+	margin-bottom: 20px;
+  }
+  
+  .searchbox {
+	width: 100%;
+	padding: 15px;
+	border: none;
+	outline: none;
+	background: #2d3a3f;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 20px;
+	transition: 0.4s ease-out;
+  }
+  
+  .searchbox:focus {
+	box-shadow: 0px 0px 8px 3px #1abc9c;
+  }
+  
+  .results {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  
+  .results .result {
+	width: 30%;
+	min-width: 250px;
+	margin: 10px;
+	cursor: pointer;
+	transition: transform 0.2s;
+  }
+  
+  .results .result:hover {
+	transform: scale(1.05);
+  }
+  
+  .results .result img {
+	width: 100%;
+	border-radius: 8px;
+  }
+  
+  .results .result h3 {
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 500;
+  }
+  
+  .popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .popup .content {
+	background: #2d3a3f;
+	padding: 20px;
+	border-radius: 8px;
+	text-align: center;
+	color: #fff;
+  }
+  
+  .popup .content h2 {
+	margin-bottom: 15px;
+  }
+  
+  .popup .content .rating {
+	margin-bottom: 20px;
+  }
+  
+  .popup .content .plot {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .popup .content .plot img {
+	width: 150px;
+	margin-bottom: 15px;
+  }
+  
+  .popup .content .plot p {
+	font-size: 16px;
+  }
+  
+  .popup .content .close {
+	margin-top: 15px;
+	padding: 10px 20px;
+	font-size: 16px;
+	background: #1abc9c;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .popup .content .close:hover {
+	background: #16a085;
+  }
+  
+  .random-button-wrap {
+	margin-bottom: 20px;
+  }
+  
+  .random-button {
+	padding: 10px 20px;
+	font-size: 16px;
+	background: #3498db;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background 0.4s ease-out;
+  }
+  
+  .random-button:hover {
+	background: #2980b9;
+  }
+  
